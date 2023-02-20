@@ -1,3 +1,5 @@
+//presents a dialog allowing a user to select a flashlight or night vision goggles
+
 const artificialLight = {
     "alpha": 0.1,
     "angle": 360,
