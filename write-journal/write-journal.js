@@ -1,5 +1,5 @@
 //will write the chat log to a page in the journal defined below and prompt to save to disk
-//requires the "Our Sessions" journal to exist and there must be at least one page there before this script works.
+//requires the "Our Sessions" journal to exist and there must be at least one page there before this script works. 
 
 //// v10 version////
 const date = new Date().toDateString();
