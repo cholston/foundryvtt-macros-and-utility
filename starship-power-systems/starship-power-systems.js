@@ -1,3 +1,5 @@
+//creates a dialog that helps maniuplate sounds and lights
+
 const dialogOptions = {
     id: "lightPickerSelector",
     width: 320
