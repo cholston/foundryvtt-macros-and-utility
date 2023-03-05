@@ -14,7 +14,7 @@ if(!entry) {
     let fileContent = "";
     for (let message of messages) {
         let time = new Date(message.timestamp).toLocaleDateString(`en-US`, {weekday: "short", hour: "numeric", minute: "numeric", second: "numeric"});
-        let messageAuthor = message.speaker.alias !== undefined ? message.speaker.alias : "Debinani";
+        let messageAuthor = message.speaker.alias + ' - ' + message.user.name;
         let messageContent = message.content;
         pageContent += `<p>[${time}] ${messageAuthor}:</p><p>${messageContent}</p><p>--------------------------</p>`;
         fileContent += `[${time}] ${messageAuthor}:\n${messageContent}\n--------------------------\n`;
